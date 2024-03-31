@@ -1,4 +1,4 @@
-import MerchantsTable from "@/components/merchantsTable";
+import MerchantsTable from "@/components/MerchantsTable";
 
 export default function Home() {
   async function fetchData() {
@@ -25,7 +25,7 @@ export default function Home() {
           <button className=" bg-blue-500 text-white py-3 px-3 rounded-r-md">Search</button>
         </div>
       </div>
-      <button onClick={fetchData}>clickme</button>
+      {/* <button onClick={fetchData}>clickme</button> */}
 
       <div className="w-[80%] mx-auto pt-10 ">
         <p className=" text-gray-500 pl-5 pb-2">Search results .... </p>
